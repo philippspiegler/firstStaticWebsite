@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+input {
+    display: inline-block;
+
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.home-button {
+    margin: 2em 0 0 2em;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    padding-left: 0.4em;
+}
+
+
+.account {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: lightgray;
+        margin-left: 25rem;
+        margin-right: 25rem;
+        height: 100vh;
+        font-family: Helvetica, Arial, sans-serif;
+}
+
+

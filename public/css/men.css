@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightgreen;
+}
+
+h1 {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    width: fit-content;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(224, 160, 239);
+    cursor: crosshair;
+}
+
+:target {
+    background-color: blue;
+}
+
+.main-navbar {
+    position: relative;
+    background-color: lightgray;
+    max-width: 1200px;  
+    margin-left: 10.5em;
+    padding-left: 3em;
+    
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    padding: 0 0.2em;
+}
+
+.men-menu {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.men-jackets {
+    padding-top: 2rem;
+}
+
+.men-jackets-title {
+    background-color: #FAF9F6;
+    padding-top: 0.5rem;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 480px;
+}
+
+.men-jackets-description {
+    background-color: #FAF9F6;
+    margin-top: -1rem;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    width: 480px;
+}
+

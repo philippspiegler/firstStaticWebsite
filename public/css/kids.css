@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightyellow;
+}
+
+h1 {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    width: fit-content;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(224, 160, 239);
+    cursor: crosshair;
+}
+
+:target {
+   background-color: blue;
+}
+
+.main-navbar {
+    position: relative;
+    background-color: lightgray;
+    max-width: 1200px;  
+    margin-left: 10.5em;
+    padding-left: 3em;
+    
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    padding: 0 0.2em;
+}
+
+.kids-menu {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.kids-jackets {
+    padding-top: 2rem;
+}
+
+.kids-jackets-title {
+    background-color: rgb(217, 255, 211);
+    padding-top: 0.5rem;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 480px;
+}
+
+.kids-jackets-description {
+    background-color: rgb(217, 255, 211);
+    margin-top: -1rem;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    width: 480px;
+}

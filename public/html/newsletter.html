@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NEWSLETTER</title>
+    <link rel="stylesheet" href="../css/newsletter.css">
+  </head>
+<body>
+
+    <button class="home-button"><a href="../../index.html">Home</a></button>
+
+    <div class="newsletter">
+        <h3>Stay up to date</h3>
+        <form action="mailto:ph.spiegler@gmail.com">
+            <label for="email">E-Mail:</label>
+                <input type="email" id="email" placeholder="your e-mail">
+        </form>
+            <p>I wish to be informed about:</p>
+        <form action="">
+            <label for="sale">sale</label>
+                <input type="radio" id="sale" name="pref_contact" value="SALE">
+            <label for="collections">new collections</label>
+                <input type="radio" id="collections" name="pref_contact" value="COLLECTIONS">
+        </form>
+    
+        <label for="gender">Your gender:</label>
+
+        <select name="gender" id="gender">
+            <option value="choose" >choose here</option>
+            <option value="female">female</option>
+            <option value="male">male</option>
+            <option value="non-binary">non-binary</option>
+        </select>
+
+        <input type="submit" value="submit">
+           
+    </div>
+</body>
+
+</html>

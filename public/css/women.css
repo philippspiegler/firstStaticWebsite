@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightcoral;
+}
+
+h1 {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    width: fit-content;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(224, 160, 239);
+    cursor: crosshair;
+}
+
+:target {
+    background-color: blue;
+}
+
+
+.main-navbar {
+    position: relative;
+    background-color: lightgray;
+    max-width: 1200px;  
+    margin-left: 10.5em;
+    padding-left: 3em;
+    max-width: 80%;  
+    
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    padding: 0 0.2em;
+}
+
+.women-menu {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.wmn-jackets {
+    padding-top: 2rem;
+}
+
+.wmn-jackets-title {
+    background-color: lightskyblue;
+    padding-top: 0.5rem;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 480px;
+}
+
+.wmn-jackets-description {
+    background-color: lightskyblue;
+    margin-top: -1rem;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    width: 480px;
+}
+
+.pic {
+    height: 480px;
+    width: 480px;
+}
